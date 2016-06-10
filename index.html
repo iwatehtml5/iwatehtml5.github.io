@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8">
     <title>Iwate HTML5</title>
+
+
+    <meta property="og:title" content="Iwate HTML5">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://iwatehtml5.github.io/">
+    <meta property="og:image" content="http://iwatehtml5.gihub.io/images/ogp.jpg">
+    <meta property="og:description" content="Iwate HTML5は、岩⼿手県内のウェブクリエイターがHTML5 関連技術の最新情報に触れることで技術と意識を⾼め、相互に交流する機会とすることを目的としたコミュニティです。現在、年に数回程度の勉強会を開催しています。">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
@@ -13,19 +20,37 @@
 </head>
 
 <body>
-   
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-79163907-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
     <div class="container">
-    <header>    <h1 class="text-center">Iwate HTML5<br>
-        <span class="since">since 2014</span></h1>
+        <header>
+            <h1 class="text-center">Iwate HTML5<br>
+            <span class="since">since 2014</span></h1>
         </header>
         <div class="row"><img src="images/main1.jpg" alt=""></div>
         <div class="row">
-        <main>
-            <div class="col-md-10 col-md-offset-1">
-                <p class="maincopy">Iwate HTML5（旧称：IWATE HTML5 COMMUNITY）は岩⼿手県内のウェブクリエイターが、HTML5 関連技術の最新情報に触れることで技術と意識を⾼め、相互に交流する機会とすることを目的としたコミュニティです。現在、年に数回程度の勉強会を開催しています。</p>
-            </div>
-            </main>
+            <main>
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="maincopy">Iwate HTML5（旧称：IWATE HTML5 COMMUNITY）は、岩⼿手県内のウェブクリエイターがHTML5 関連技術の最新情報に触れることで技術と意識を⾼め、相互に交流する機会とすることを目的としたコミュニティです。現在、年に数回程度の勉強会を開催しています。</p>
                 </div>
+            </main>
+        </div>
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <h2 class="text-center">Iwate HTML5 #5</h2>
