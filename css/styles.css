@@ -1,0 +1,23 @@
+h1, h2, h3 {
+    color: #999;
+    font-weight: normal;
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝体", "Yu Mincho", YuMincho, serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+dd {
+    margin-left: 1.5em;
+}
+
+.since {
+    font-size: 14px;
+}
+
+.maincopy {
+    margin: 2em 0;
+    line-height: 1.75;
+}
